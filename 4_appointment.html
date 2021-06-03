@@ -1,0 +1,364 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	
+	<title>名词解释</title>
+	<link rel="stylesheet" type="text/css" href="style/default_normalize.css">
+	<link rel="stylesheet" type="text/css" href="style/default_style.css">
+    <link rel="stylesheet" href="style/444_reset.min.css">
+<link rel="stylesheet" href="style/444_style.css">
+
+
+<style type="text/css" media="screen">
+body{
+	background:url(images/bg_castle.jpg) no-repeat;
+	background-color:#000;
+}
+
+#container,  #content, #sidebar, #footer {
+	padding: 5px;
+	border: 1px solid #666;
+	margin-bottom: 5px;
+}
+#container {
+	width: 1500px;
+	margin: 5px auto;
+}
+#header {
+	height: 130px;
+	background:inherit;
+	position:relative;
+	
+	
+}
+#header p{
+	color:#F99;
+	font-size:40px;
+	position:absolute;
+	left:680px;
+	top:90px;
+	font-family:"华文行楷";
+	font-weight:600;
+}
+#header span{
+	float:left;
+	
+	
+}
+#content {
+	width: 60%;
+	float: left;
+	background-color:#CCCC;
+}
+#content p{
+	line-height:1.5;
+	text-indent:2em;
+	text-shadow:0.1em 0.1em 0.2em #CC6600;
+	font-size:18px;
+	word-wrap:break-word;
+}
+#content span1{
+	float:right;
+}
+#content p span{
+	font-weight:700;
+	font-size:20px;
+}
+#content h2{
+	color:#900;
+}
+#sidebar {
+	width: 25%;
+	background: #CCCC;
+	float: right;
+}
+#sidebar h2{
+	color:#900;
+}
+#sidebar p{
+	line-height:1.5;
+	text-indent:2em;
+	text-shadow:0.1em 0.1em 0.2em #963;
+	font-size:18px;
+	word-wrap:break-word;
+}
+#sidebar p span{
+	font-weight:700;
+	font-size:20px;
+}
+#sidebar span p{
+	text-indent:0em;
+}
+#footer {
+	clear: both;
+}
+#footer p{
+	text-align:center;
+	color:#FFF;
+}
+
+.card{
+	display:block;
+	margin:10px;
+	position:relative;
+	left:10px;
+	
+}
+#box1{
+	text-align:center;
+	width:100%;
+	
+}
+#box1 h2{
+	position:relative;
+	left:30px;
+}
+#box1 span{
+	position:relative;
+	top:10px;
+	left:190px;
+	display:block;
+	width:500px;
+	margin:10px;
+	
+	
+	
+}
+#box1 span h3{
+	float:left;
+	font-family:"黑体";
+	font-size:20px;
+	font-weight:700;
+}
+#button{
+	width:80px;
+	height:50px;
+	font-size:16px;
+	font-weight:500;
+	background:rgb(135, 150, 198);
+	position:relative;
+	left:0px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1004px) {
+#content {
+	width: auto;
+ 	float: none;
+}/*设置容器宽度为⾃动，即宽度⾃适应，同时去除浮动属性，各个块级容器纵向排列*/
+#sidebar {
+	width: auto;
+	float: none;
+}}
+</style>
+</head>
+
+
+
+<body>
+<div id="container">
+  <div id="header">
+    <span><a href="index.html" target="new"><img src="images/logo_pure6.png" width="200" height="200" alt=""></a></span>
+    <p>点击预约</p>
+    <ul class="nav">
+		<li class="home current">
+			<a href="1_intro.html">
+				<span>玩法介绍</span>
+				<span>玩法介绍</span>
+				<span>玩法介绍</span>
+				<span>玩法介绍</span>
+			</a>
+			<ul>
+				<li><a href="1_intro.html">名词解释</a></li>
+                <li><a href="1_process.html">玩法流程</a></li>
+			</ul>
+		</li>
+        
+		<li class="about">
+			<a href="2_about.html">
+				<span>关于水镜</span>
+				<span>关于水镜</span>
+				<span>关于水镜</span>
+				<span>关于水镜</span>
+			</a>
+		</li>
+		<li class="home current">
+			<a href="3_script.html">
+				<span>独家剧本</span>
+				<span>独家剧本</span>
+				<span>独家剧本</span>
+				<span>独家剧本</span>
+			</a>
+		</li>
+		<li class="twitter">
+			<a href="4_order.html">
+				<span>点击预约</span>
+				<span>点击预约</span>
+				<span>点击预约</span>
+				<span>点击预约</span>
+			</a>
+		</li>
+	</ul>
+    </div>
+<div id="content">
+<div id="box1">
+<h2>请选择要预约的剧本（多选即为自动匹配相应合适的车队）</h2>
+<form action="" method="get" name="appoint" class="appoint"> 
+
+  <label class="card">
+    <input class="card__input" type="checkbox"/>
+    <div class="card__body">
+      <div class="card__body-cover"><img class="card__body-cover-image"  src="images/Huangquan.jpg"/></div>    
+      <header class="card__body-header">
+        <h2 class="card__body-header-title">《碧落黄泉》</h2>
+        <p class="card__body-header-subtitle">88/位</p>
+      </header>
+    </div>
+  </label>
+  
+  
+  <label class="card">
+    <input class="card__input" type="checkbox"/>
+    <div class="card__body">
+      <div class="card__body-cover"><img class="card__body-cover-image"  src="images/The school rules.jpg"/></div>
+      
+      <header class="card__body-header">
+        <h2 class="card__body-header-title">《你听》</h2>
+        <p class="card__body-header-subtitle">88元/位</p>
+      </header>
+    </div>
+  </label>
+  <label class="card">
+    <input class="card__input" type="checkbox"/>
+    <div class="card__body">
+      <div class="card__body-cover"><img class="card__body-cover-image"  src="images/haircut.jpg" /></div>
+      
+      
+      <header class="card__body-header">
+        <h2 class="card__body-header-title">《皇帝的新发型》</h2>
+        <p class="card__body-header-subtitle">88元/位</p>
+      </header>
+    </div>
+  </label>
+  <label class="card">
+    <input class="card__input" type="checkbox"/>
+    <div class="card__body">
+      <div class="card__body-cover"><img class="card__body-cover-image"  src="images/ip_1.jpg"/></div>
+      
+      
+      <header class="card__body-header">
+        <h2 class="card__body-header-title">《阡陌之绊》</h2>
+        <p class="card__body-header-subtitle">108元/位</p>
+      </header>
+    </div>
+  </label>
+  <label class="card">
+    <input class="card__input" type="checkbox"/>
+    <div class="card__body">
+      <div class="card__body-cover"><img class="card__body-cover-image" src="images/The masquerade.jpg"/></div>
+      
+      
+      <header class="card__body-header">
+        <h2 class="card__body-header-title">实景《假面舞会》</h2>
+        <p class="card__body-header-subtitle">168元/位</p>
+      </header>
+    </div>
+  </label></form>
+
+  <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+  <form action="" method="get" name="appoint" class="appoint">
+    <span><h3>预计到店时间</h3>
+    <label>
+    <input type="radio" name="RadioGroup1" value="单选" id="RadioGroup1_0">
+    "14:00"
+    </label>
+    
+    <label>
+    <input type="radio" name="RadioGroup1" value="单选" id="RadioGroup1_1">
+    "17:00"
+    </label>
+    
+    <label>
+    <input type="radio" name="RadioGroup1" value="单选" id="RadioGroup1_2">
+    "20:00"
+    </label>
+    <label>
+    
+    <input type="radio" name="RadioGroup1" value="单选" id="RadioGroup1_2">
+    "23:00"
+    </label>
+    </span></form>
+    <form action="" method="get" name="appoint" class="appoint">
+    <span><h3>组队模式</h3>
+    <label>
+    <input type="radio" name="RadioGroup1" value="单选" id="RadioGroup1_0">
+    "随机上车"
+    </label>
+    
+    <label>
+    <input type="radio" name="RadioGroup1" value="单选" id="RadioGroup1_1">
+    "自带车队"
+    </label>
+    
+    </span>
+    
+   <span><input name="button" type="submit"  value="点击预约" id="button" onclick="javascript:alert('预约成功，请及时到店!');"></span>
+ 
+ 
+  
+    
+   
+  </form>
+</div>
+
+
+
+</div>
+ 
+ <div id="sidebar">
+ <h2>联系我们</h2>
+<span><p>联系电话：0760-000-12345</p></span>
+ <p>微信
+   <a title="点击这里给我发消息" href="#" target="_blank"><img  src="images/wechat.jpg" height="30px" width="30px"></a>
+   QQ
+    <a title="点击这里给我发消息" href="#" target="_blank"><img src="images/qq.jpg" height="30px" width="30px"></a>
+   </p>
+ <p><img src="images/qrcode.png" width="120"/>
+ 
+<img src="images/qrcode.png" width="120"/></p>
+ </div>
+ <div id="footer">
+ <div id="footer">
+
+<p>公司地址：广东省中山市   邮政编码：528400 <br>
+  COPYRIGHT©2020-2021<br>
+Areskm 版权所有</p>
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+*{border:0;
+	padding:0;
+	margin:0;
+}
+body{width:100%;
+	height:auto;
+}
+
+div#container{
+	border:0;
+	padding:0;
+	margin:0;
+	background:url(../images/home_bg3.jpg) no-repeat center;
+	width:100% auto;
+	height:100% auto;
+	background-size:cover;
+	
+	
+}
+
+/*canvas {
+	background:none;
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position:top;
+	
+}*/
+#dowebok{
+	background-size:cover;
+}
