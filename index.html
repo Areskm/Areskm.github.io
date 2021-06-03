@@ -48,16 +48,15 @@ body{
 	background:#FF9;
 	font:18px "华文宋体"
 }
-/*canvas{
-position:relative;
-	left:670px;
-	top:60px;
-	size:auto;
+/*#canvas{
+position:absolute;
+	left:10px;
+	top:500px;
 }*/
 #page_header{
 	position:absolute;
-	left:680px;
-	top:15px;
+	left:670px;
+	top:13px;
 	padding:0;
 	border:0;
 	margin:0;
@@ -116,13 +115,16 @@ ul#nav li a.js:hover{
 	background-color:#F00;
 	width:20px;
 	height:20px;
-	position:relative;
-	top:-570px;
-	left:846px;
-	z-index:12;
+	position:absolute;
+	top:150px;
+	left:833px;
+	z-index:12000;
 	cursor:pointer;
+	padding:0;
+	border:0;
+	margin:0;
 }
-	
+
 	
 	
 </style>
@@ -133,12 +135,14 @@ ul#nav li a.js:hover{
 
 
 
+
 <div id="container" onresize="_pexresize()" >
-   <canvas id="dowebok" width="1280" height="720" ></canvas>
+<canvas id="dowebok" width="1280" height="720" ></canvas>
    <script src="java/xiayu.js"></script>
    
+   
    <header id="page_header" name="page_header" >
-   <canvas id="canvas" width="220px" height="220px"></canvas>
+   <canvas height="220px" width="220px" id="canvas" name="canvas"></canvas>
    
    </header>
  
@@ -160,11 +164,14 @@ ul#nav li a.js:hover{
 </span>
   </div>
 
- 
+
+
+ <button type="button" id="btn2" onclick="javascript:alert('恭喜你成功破解!');"></button>
+
 			
-	<div class="component">
-	<button type="button"  class="cn-button" id="cn-button"  >霸道通关↓</button>
-             <button type="button" id="btn2" onclick="javascript:alert('恭喜你成功破解!');"></button>
+	<div>
+    <button type="button"  class="cn-button" id="cn-button"  >霸道通关↓</button>
+             
             
                 
                 
