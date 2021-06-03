@@ -2,17 +2,17 @@
 	padding:0;
 	margin:0;
 }
-body{width:100%;
+body{
 	height:auto;
 }
 
-div#container{
+#container{
 	border:0;
 	padding:0;
 	margin:0;
-	background:url(../images/home_bg3.jpg) no-repeat center;
-	width:100% auto;
-	height:100% auto;
+	background:url(../images/home_bg4.jpg) no-repeat center;
+	width:100%;
+	
 	background-size:cover;
 	
 	
@@ -26,5 +26,5 @@ div#container{
 	
 }*/
 #dowebok{
-	background-size:cover;
+	
 }
